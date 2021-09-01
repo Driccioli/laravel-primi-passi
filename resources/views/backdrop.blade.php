@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Backdrop</title>
 </head>
 <body>
-    Hello World!<br>
-    <a href="{{url('/ascii-art')}}">ASCII Art</a>
-    <a href="{{url('/backdrop')}}">Backdrop</a>
+    <img src="{{$backdrop}}" alt="Cool background">
 </body>
 </html>
