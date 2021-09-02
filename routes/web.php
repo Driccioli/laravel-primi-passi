@@ -23,11 +23,11 @@ Route::get('/ascii-art', function () {
         'asciiArt' => "(✿◡‿◡) ╰(*°▽°*)╯" 
     ]
 );
-});
+})->name('ascii.art');
 Route::get('/backdrop', function () {
     return view('backdrop',
     [
         'backdrop' => "https://image.shutterstock.com/image-photo/woman-overlooking-waterfall-skogafoss-iceland-600w-1139809691.jpg" 
     ]
 );
-});
+})->name('backdrop');

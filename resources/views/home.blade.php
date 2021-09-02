@@ -8,7 +8,7 @@
 </head>
 <body>
     Hello World!<br>
-    <a href="{{url('/ascii-art')}}">ASCII Art</a>
-    <a href="{{url('/backdrop')}}">Backdrop</a>
+    <a href="{{route('ascii.art')}}">ASCII Art</a>
+    <a href="{{route('backdrop')}}">Backdrop</a>
 </body>
 </html>
